@@ -1,0 +1,23 @@
+﻿{
+  "name": "IISTestNewClass1",
+  "modelName": "i-i-s-test-new-class1",
+  "className": "NewClass1",
+  "nameSpace": "IIS.Test",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "newClass3",
+      "relatedTo": "i-i-s-test-new-class3",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
